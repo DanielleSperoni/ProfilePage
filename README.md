@@ -1,0 +1,1 @@
+This is my personal profile webpage showcasing my finalized projects and what I've been working on recently. 
