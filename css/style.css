@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(136, 182, 219);
+}
+
+p {
+    text-align: center;
+    /* bold */
+}
+
+@media screen and (max-width: 767px){
+    .collapsable {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .collapsable {
+        display: block;
+    }
+}
+
+.right {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-right: 0.5em;
+    padding-top: 1em;
+}
+
+.meLogo {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+}
