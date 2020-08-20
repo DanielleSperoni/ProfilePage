@@ -1,12 +1,18 @@
 body {
     background-color: rgb(136, 182, 219);
+    font-family: Helvetica, sans-serif, Arial;
 }
 
-p {
+h3, article, .descriptor, footer, .error-body {
     text-align: center;
-    /* bold */
 }
 
+.descriptor {
+    font-weight: bold;
+}
+
+/* make it so that it turns into a hamburger
+drop down menu  */
 @media screen and (max-width: 767px){
     .collapsable {
         display: none;
@@ -27,10 +33,79 @@ p {
     padding-top: 1em;
 }
 
+.collapsable {
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-right: 1em;
+    padding-top: 1.5em;
+}
+
 .meLogo {
     border-radius: 50%;
 }
 
-footer {
+
+
+/* portfolio page */
+.my-work-header {
     text-align: center;
+    background-color: blueviolet;
+    border: thick solid black;
+    margin: 10px auto;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.work-1, .work-2, .work-3, .work-4 {
+    display: flex;
+}
+
+.work-1 > aside {
+    flex: 1;
+}
+.work-2 > aside {
+    flex: 1;
+}
+.work-3 > aside {
+    flex: 1;
+}
+.work-4 > aside {
+    flex: 1;
+}
+
+
+/* .mainMyWork {
+    display: flex;
+} */
+
+/* .asideMyWork {
+    flex: 1;
+} --> puts the .asideMyWork at the far right*/
+
+/* .mainMyWork > aside {
+    flex: 1;
+} --> doesn't wrap around*/
+
+/* .mainMyWork > .asideMyWork {
+    flex: 1;
+} --> puts the .asideMyWork at the far right 
+with an extact border shape to the text*/
+
+
+.asideMyWork {
+    border: thin solid hotpink;
+    padding: 150px 5px;
+    margin: 5px auto;
+}
+.project-descriptor {
+    border: thick solid black;
+    /* padding: 150px 100px; */
+    margin: 5px auto;
+}
+
+
+/* 404 Page */
+.error-pic {
+    border-radius: 100%;
 }
