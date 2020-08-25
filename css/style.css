@@ -1,111 +1,81 @@
 body {
-    background-color: rgb(136, 182, 219);
-    font-family: Helvetica, sans-serif, Arial;
-}
-
-h3, article, .descriptor, footer, .error-body {
-    text-align: center;
-}
-
-.descriptor {
-    font-weight: bold;
-}
-
-/* make it so that it turns into a hamburger
-drop down menu  */
-@media screen and (max-width: 767px){
-    .collapsable {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 768px){
-    .collapsable {
-        display: block;
-    }
+    background-color: rgb(162, 194, 221);
+    font-family: Didot, Palatino, serif;
 }
 
 .right {
-    position: fixed;
-    right: 0;
-    top: 0;
-    padding-right: 0.5em;
-    padding-top: 1em;
-}
-
-.collapsable {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     padding-right: 1em;
     padding-top: 1.5em;
 }
 
+.links {
+    font-size: 0.8rem;
+}
+
+header {
+    border: thin solid black;
+}
+
 .meLogo {
     border-radius: 50%;
+    width: 3%;
 }
 
-
-
-/* portfolio page */
-.my-work-header {
-    text-align: center;
-    background-color: blueviolet;
-    border: thick solid black;
-    margin: 10px auto;
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.work-1, .work-2, .work-3, .work-4 {
-    display: flex;
-}
-
-.work-1 > aside {
-    flex: 1;
-}
-.work-2 > aside {
-    flex: 1;
-}
-.work-3 > aside {
-    flex: 1;
-}
-.work-4 > aside {
-    flex: 1;
-}
-
-
-/* .mainMyWork {
-    display: flex;
+/* main {
+    display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-direction: column;
 } */
 
-/* .asideMyWork {
-    flex: 1;
-} --> puts the .asideMyWork at the far right*/
-
-/* .mainMyWork > aside {
-    flex: 1;
-} --> doesn't wrap around*/
-
-/* .mainMyWork > .asideMyWork {
-    flex: 1;
-} --> puts the .asideMyWork at the far right 
-with an extact border shape to the text*/
-
-
-.asideMyWork {
-    border: thin solid hotpink;
-    padding: 150px 5px;
-    margin: 5px auto;
-}
-.project-descriptor {
-    border: thick solid black;
-    /* padding: 150px 100px; */
-    margin: 5px auto;
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick solid orange;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-top: 8rem;
+    /* text-align: center; */
 }
 
-
-/* 404 Page */
-.error-pic {
-    border-radius: 100%;
+.descriptor {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border: thin solid black;
+    font-style: italic;
+    /* text-align: center; */
 }
+
+.overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: thick solid seagreen;
+    padding: 2rem 5rem;
+    /* text-align: center; */
+}
+
+
+
+/* pushing links to bottom of page */
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     /* Footer height */
+    text-align: center;
+} 
