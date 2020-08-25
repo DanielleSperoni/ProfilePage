@@ -1,0 +1,59 @@
+/* Generic base across pages */
+body {
+    background-color: rgb(162, 194, 221);
+    font-family: Didot, Palatino, serif;
+}
+
+/* Generic base page */
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 1em;
+    padding-top: 1.5em;
+    border: thick solid hotpink;
+}
+
+/* Generic base page */
+.links {
+    font-size: 0.8rem;
+}
+
+
+.meLogo {
+    border-radius: 50%;
+    width: 3%;
+}
+
+header {
+    border: thick solid navy;
+}
+
+.header {
+    border: thick solid purple;
+    text-align: center;
+}
+
+.freelance {
+    text-align: center;
+    border: solid thin black;
+}
+
+
+/* pushing links to bottom of page */
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     /* Footer height */
+    text-align: center;
+} 
