@@ -1,81 +1,39 @@
-body {
-    background-color: rgb(162, 194, 221);
-    font-family: Didot, Palatino, serif;
-}
-
-.right {
+.home-page__main {
     position: absolute;
-    right: 0;
-    top: 0;
-    padding-right: 1em;
-    padding-top: 1.5em;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    height: 25rem;
 }
-
-.links {
-    font-size: 0.8rem;
-}
-
-header {
-    border: thin solid black;
-}
-
-.meLogo {
-    border-radius: 50%;
-    width: 3%;
-}
-
-/* main {
-    display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    /* flex-direction: column;
-} */
 
 .name {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: thick solid orange;
     font-weight: bolder;
     font-size: 2.5rem;
-    padding-top: 8rem;
-    /* text-align: center; */
 }
 
 .descriptor {
     display: flex;
     justify-content: center;
     align-items: center;    
-    border: thin solid black;
     font-style: italic;
-    /* text-align: center; */
+    padding: 1rem;
 }
 
 .overview {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: thick solid seagreen;
-    padding: 2rem 5rem;
-    /* text-align: center; */
+    padding: 2rem;
+    background-color: lightgray;
+    margin: 1rem;
 }
 
-
-
-/* pushing links to bottom of page */
-.page-container {
-    position: relative;
-    min-height: 100vh;
+@media screen and (min-width: 760px) {
+    .overview {
+        margin: 0 auto;
+        max-width: 600px;
+        background-color: lightgray;
+    }
 }
-
-.content-wrap {
-    padding-bottom: 2.5rem; /* Footer height */
-}
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;     /* Footer height */
-    text-align: center;
-} 

@@ -4,6 +4,7 @@
 <head>
     <title>Home Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="icon" href="img/memoji_2.jpeg">
 </head>
 
@@ -11,14 +12,24 @@
     <div class="page-container">
         <div class="content-wrap">
             <header>
-                <img class="meLogo" src="img/memoji_2.jpeg" alt="Me-Logo">
-                <nav class="links right">
-                    <a href="portfolio.html">Portfolio</a> |
-                    <a href="contact.html">Contact</a> |
-                    <a href="404.html">404</a>
+                <nav class="main-nav">
+                    <a href="index.html">
+                        <img class="logo-me" src="img/memoji_2.jpeg" alt="Logo-Me">
+                    </a>
+                    <ul class="main-nav-menu links">
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="404.html">404</a>
+                        </li>
+                    </ul>
                 </nav>
             </header>
-            <main>
+            <main class="home-page__main">
                 <section class="name">Danielle <br> Speroni</section>
                 <article class="descriptor">software designer / web developer</article>
                 <article class="overview">
@@ -30,11 +41,17 @@
             </main>
         </div>
         <footer class="footer">
-            <nav class="links">
-                <a href="linkedIn.html" target="_blank">LinkedIn</a> |
-                <a href="http://www.instagram.com/danielle_speroni/" target="_blank">Instagram</a> |
-                <a href="mailto:dsperoni90@gmail.com">Email</a>
-            </nav>
+            <ul class="links">
+                <li>
+                    <a href="linkedIn.html" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/DanielleSperoni" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="mailto:dsperoni90@gmail.com">Email</a>
+                </li>
+            </ul>
         </footer>
     </div>
 </body>
