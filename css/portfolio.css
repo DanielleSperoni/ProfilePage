@@ -1,0 +1,58 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    border: thin solid black;
+}
+
+.project-info {
+    background-color: lightgrey;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+
+.project-image {
+    border: solid thin black;
+    width: 100%;
+}
+
+
+
+.project-image figure {
+    width: 100%;
+    margin: 0;
+}
+
+.images {
+    width: 100%;
+}
+
+
+.caption {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (min-width: 813px) {
+    .project {
+        flex-wrap: nowrap;
+    }
+
+    .project-info, .project-image {
+        width: 50%;
+
+    }
+}
