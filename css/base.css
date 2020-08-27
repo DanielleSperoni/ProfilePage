@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(224, 235, 243);
+    font-family: Didot, Palatino, serif;
+}
+
+.logo-me {
+    border-radius: 50%;
+    width: 8%;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav-menu {
+    display: flex;
+}
+
+.main-nav-menu li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.main-nav-404 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    font-size: 0.8rem;
+}
+
+/* pushing links to bottom of page */
+.page-container {
+    position: relative;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto; /* centers it */
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     /* Footer height */
+    text-align: center;
+} 
+
+.links li {
+    list-style-type: none;
+    display: inline-flex;   
+}
