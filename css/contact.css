@@ -1,8 +1,10 @@
 .title {
     text-align: center;
+    font-size: 1.75rem;
 }
 
 .freelance {
     text-align: center;
-    border: solid thin black;
+    border: solid thin #EDC7B7;
+    background-color: #EEE2DC;
 }

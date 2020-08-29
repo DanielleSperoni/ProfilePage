@@ -1,6 +1,7 @@
 .title {
     font-size: 1.5rem;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .project-wrapper {
@@ -15,19 +16,18 @@
 }
 
 .project-info {
-    background-color: lightgrey;
+    background-color: #EEE2DC;
     width: 100%;
     margin-top: 1.5rem;
     margin-bottom: 0;
     padding: 0.5rem;
+    color: #123C69;
 }
 
 .project-image {
     border: solid thin black;
     width: 100%;
 }
-
-
 
 .project-image figure {
     width: 100%;
@@ -38,13 +38,11 @@
     width: 100%;
 }
 
-
 .caption {
     text-align: center;
     font-size: 1.2rem;
+    color: #123C69;
 }
-
-
 
 @media screen and (min-width: 813px) {
     .project {
@@ -53,6 +51,9 @@
 
     .project-info, .project-image {
         width: 50%;
-
     }
+}
+
+h6 {
+    margin: 0;
 }
