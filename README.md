@@ -4,7 +4,7 @@ This is my personal profile webpage showcasing my finalized projects and what I'
 
 [//]: # (the link to the hosted solution)
 ### Linked to the Hosted Solution:
-https://github.com/DanielleSperoni/daniellesperoni.github.io
+https://github.com/DanielleSperoni/daniellesperoni.github.io/tree/master/project
 
 [//]: # (at least 3 user stories)
 ### User Stories:
@@ -14,14 +14,5 @@ https://github.com/DanielleSperoni/daniellesperoni.github.io
 
 [//]: # (link to wireframe images in your GitHub Repository -- only upload images - not project files)
 ### Link to wireframe in GitHub Repo:
-Home Page: https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/home-page-wireframe.png
+https://github.com/DanielleSperoni/daniellesperoni.github.io/tree/master/wireframes
 
-Portfolio Page (Mobile): https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/portfolio-mobile-wireframe.png
-
-Portfolio Page (Desktop): https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/portfolio-page-wireframe.png
-
-Contact Page (Mobile): https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/contact-mobile-wireframe.png
-
-Contact Page (Desktop): https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/contact-page-wireframe.png
-
-Error Page: https://github.com/DanielleSperoni/daniellesperoni.github.io/blob/master/error-page.png
