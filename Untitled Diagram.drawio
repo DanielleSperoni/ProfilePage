@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T00:17:54.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="PWEGHL1wPBYK6z3ILvAe" version="13.6.5" type="github" pages="6">
-  <diagram id="y549nrKQ-lLqLkLc4ka6" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-09-01T18:51:56.202Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15" etag="M7YUk0IsbIkZ1yd6_v7T" version="13.6.5" type="github" pages="6">
+  <diagram id="y549nrKQ-lLqLkLc4ka6" name="Front Page">
     <mxGraphModel dx="1714" dy="1024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -55,7 +55,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="krAu767BFukZ0_Zx5y9g" name="Page-2">
+  <diagram id="krAu767BFukZ0_Zx5y9g" name="Portfolio - Desktop">
     <mxGraphModel dx="2000" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="UiwxshYDCqZsbp5BWLt7-0" />
@@ -207,7 +207,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FVk_4aW7M6y1hUJBNqYg" name="Page-5">
+  <diagram id="FVk_4aW7M6y1hUJBNqYg" name="Portfolio - Web">
     <mxGraphModel dx="3000" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="K3QuSQfXJoFcfF0l34tI-0" />
@@ -359,7 +359,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="nL2O6JbR1vUlOwe9fpd9" name="Page-3">
+  <diagram id="nL2O6JbR1vUlOwe9fpd9" name="Contact - Desktop">
     <mxGraphModel dx="2000" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="gkBaJMHQkPIM5ymTCWlj-0" />
@@ -457,7 +457,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="e11m1GIzAvZ-CmjOm_AQ" name="Page-6">
+  <diagram id="e11m1GIzAvZ-CmjOm_AQ" name="Contact - Web">
     <mxGraphModel dx="2000" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="qrdWyy1KUxckLfu2nOEx-0" />
@@ -549,8 +549,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="UXKJgcOdYqPPJLNO4Yrg" name="Page-4">
-    <mxGraphModel dx="2000" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="UXKJgcOdYqPPJLNO4Yrg" name="Error">
+    <mxGraphModel dx="1426" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="OVcsqQI-S_O61wdPcTZF-0" />
         <mxCell id="OVcsqQI-S_O61wdPcTZF-1" parent="OVcsqQI-S_O61wdPcTZF-0" />
